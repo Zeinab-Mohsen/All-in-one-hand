@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">All In One Hand</string>
+    <string-array name="Jobs">
+        <item>جليس أطفال</item>
+        <item>حداد</item>
+        <item>دكتور</item>
+        <item>سباك</item>
+        <item>كهربائي</item>
+        <item>ممرض</item>
+        <item>معلم</item>
+        <item>ميكانيكي</item>
+        <item>نجار</item>
+        <item>نقاش</item>
+    </string-array>
+    <string-array name="Governments">
+        <item>الإسكندرية</item>
+        <item>الإسماعيلية</item>
+        <item>أسوان</item>
+        <item>أسيوط</item>
+        <item>الأقصر</item>
+        <item>البحر الأحمر</item>
+        <item>البحيرة</item>
+        <item>بني سويف</item>
+        <item>بورسعيد</item>
+        <item>جنوب سيناء</item>
+        <item>الجيزة</item>
+        <item>الدقهلية</item>
+        <item>دمياط</item>
+        <item>سوهاج</item>
+        <item>السويس</item>
+        <item>الشرقية</item>
+        <item>شمال سيناء</item>
+        <item>الغربية</item>
+        <item>الفيوم</item>
+        <item>القاهرة</item>
+        <item>القليوبية</item>
+        <item>قنا</item>
+        <item>كفر الشيخ</item>
+        <item>مطروح</item>
+        <item>المنوفية</item>
+        <item>المنيا</item>
+        <item>الوادي الجديد</item>
+    </string-array>
+    <string-array name="rate">
+        <item>"5"</item>
+        <item>"4"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"0"</item>
+
+    </string-array>
+    <string name="delete_account"><u>احذف حسابك</u></string>
+    <string name="signInText">سجل الدخول</string>
+    <string name="NationalIdText">الرقم القومي</string>
+    <string name="customerText">زبون</string>
+    <string name="yourAccountText">لحسابك</string>
+    <string name="passwordText">كلمه المرور</string>
+    <string name="showPasswordText">اظهار كلمه المرور</string>
+    <string name="dontHaveAnAccountText">ليس لديك حساب ؟</string>
+    <string name="signUpText">سجل الأن!</string>
+    <string name="signInTExt">سجل الدخول</string>
+    <string name="firstNameText">الأسم الأول</string>
+    <string name="secondNameText">الأسم الثاني</string>
+    <string name="createAccountText">إنشاء حساب</string>
+    <string name="newText">جديد</string>
+    <string name="alreadyHaveAnAccountText">لديك حساب بالفعل؟</string>
+    <string name="signInNowText">ادخل الأن!</string>
+    <string name="emailText">البريد الإلكتروني</string>
+    <string name="confirmPasswordText">تأكيد كلمه المرور</string>
+    <string name="phoneNumberText">رقم الهاتف</string>
+    <string name="genderText">النوع</string>
+    <string name="ageText">العمر</string>
+    <string name="governorateText">المحافظه</string>
+    <string name="jobText">الوظيفه</string>
+    <string name="statusText">الحاله</string>
+    <string name="signUpToYourAccountText">سجل حسابك</string>
+    <string name="wannaBecomeAnEmployee">تريد ان تصبح موظف معنا؟</string>
+
+
+    <string-array name="age">
+        <item>----</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="governorate">
+        <item>----</item>
+        <item>الإسكندرية</item>
+        <item>الإسماعيلية</item>
+        <item>أسوان</item>
+        <item>أسيوط</item>
+        <item>الأقصر</item>
+        <item>البحر الأحمر</item>
+        <item>البحيرة</item>
+        <item>بني سويف</item>
+        <item>بورسعيد</item>
+        <item>جنوب سيناء</item>
+        <item>الجيزة</item>
+        <item>الدقهلية</item>
+        <item>دمياط</item>
+        <item>سوهاج</item>
+        <item>السويس</item>
+        <item>الشرقية</item>
+        <item>شمال سيناء</item>
+        <item>الغربية</item>
+        <item>الفيوم</item>
+        <item>القاهرة</item>
+        <item>القليوبية</item>
+        <item>قنا</item>
+        <item>كفر الشيخ</item>
+        <item>مطروح</item>
+        <item>المنوفية</item>
+        <item>المنيا</item>
+        <item>الوادي الجديد</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>----</item>
+        <item>انثى</item>
+        <item>ذكر</item>
+    </string-array>
+
+    <string-array name="jobs">
+        <item>----</item>
+        <item>جليس أطفال</item>
+        <item>حداد</item>
+        <item>دكتور</item>
+        <item>سباك</item>
+        <item>كهربائي</item>
+        <item>ممرض</item>
+        <item>معلم</item>
+        <item>ميكانيكي</item>
+        <item>نجار</item>
+        <item>نقاش</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>----</item>
+        <item>متاح</item>
+        <item>غير متاح</item>
+    </string-array>
+
+</resources>

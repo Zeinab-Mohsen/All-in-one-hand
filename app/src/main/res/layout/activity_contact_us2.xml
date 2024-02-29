@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us2"
+    android:background="#E8F3FB">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="382dp"
+        android:layout_height="115dp"
+        android:textColorHighlight="#F1F1F1"
+        android:textColor="#0477AA"
+        android:textSize="60sp"
+        android:orientation="vertical"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="تواصل معنا"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اذا كنت تريد ان تتواصل معنا عن طريق الهاتف"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اذا كنت تريد ان تتواصل معنا عن طريق الايميل"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+
+    <TextView
+        android:id="@+id/Contact_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="all.in.one.hand.2022@gmail.com "
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/copy2"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="#1BA5E6"
+        android:text="نسخ"
+        android:textAlignment="center"
+        android:textColor="#FFFAFA"
+        android:textColorHighlight="#08F3D9"
+        android:textDirection="ltr"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/Contact_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01011463625"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/copy1"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="#1BA5E6"
+        android:text="نسخ"
+        android:textAlignment="center"
+        android:textColor="#FFFAFA"
+        android:textColorHighlight="#08F3D9"
+        android:textDirection="ltr"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:text="الخروج"
+
+        android:textColor="#FFFFFF"
+        android:background="#FAB2C7"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="413dp"
+        android:layout_height="12dp"
+        android:text="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+</androidx.constraintlayout.widget.ConstraintLayout>

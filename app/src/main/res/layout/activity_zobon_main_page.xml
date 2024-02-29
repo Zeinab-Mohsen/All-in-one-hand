@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zobon_main_page"
+    android:background="#E8F3FB">
+
+    <Button
+        android:id="@+id/button19"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="290dp"
+        android:layout_height="93dp"
+        android:background="@drawable/circlebackground_btn"
+        android:backgroundTint="#03A9F4"
+        android:text="طلب جديد"
+        android:textAlignment="center"
+        android:textColor="#FFFAFA"
+        android:textColorHighlight="#0B0A0A"
+        android:textDirection="ltr"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438" />
+
+    <Button
+        android:id="@+id/button20"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="290dp"
+        android:layout_height="93dp"
+        android:background="@drawable/circlebackground_btn"
+        android:backgroundTint="#03A9F4"
+        android:text="الطلبات التامة"
+        android:textAlignment="center"
+        android:textColor="#FFFAFA"
+        android:textColorHighlight="#0B0A0A"
+        android:textDirection="ltr"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <Button
+        android:id="@+id/button21"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="290dp"
+        android:layout_height="93dp"
+        android:background="@drawable/circlebackground_btn"
+        android:backgroundTint="#03A9F4"
+        android:text="الطلبات المنتظرة"
+        android:textAlignment="center"
+        android:textColor="#FFFAFA"
+        android:textColorHighlight="#0B0A0A"
+        android:textDirection="ltr"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <RelativeLayout
+        android:id="@+id/up_bar2"
+        android:layout_width="410dp"
+        android:layout_height="218dp"
+        android:background="#EFEBDF"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="74dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="182dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="153dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="23dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textDirection="rtl"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
